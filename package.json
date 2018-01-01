@@ -22,7 +22,7 @@
     "express-handlebars": "^2.0.1",
     "gcloud": "^0.24.1",
     "glob": "^5.0.15",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-bump": "^1.0.0",
     "gulp-env": "^0.2.0",

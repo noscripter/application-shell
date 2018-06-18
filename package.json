@@ -10,7 +10,9 @@
     "start": "node app.js",
     "monitor": "gulp dev",
     "postinstall": "gulp",
-    "deploy": "gcloud preview app deploy app.yaml --promote"
+    "deploy": "gcloud preview app deploy app.yaml --promote",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "app.js",
   "dependencies": {
@@ -20,7 +22,7 @@
     "del": "^2.0.2",
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
-    "gcloud": "^0.24.1",
+    "gcloud": "^0.36.0",
     "glob": "^5.0.15",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
@@ -43,6 +45,8 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.4",
     "sw-precache": "^2.2.0",
-    "vinyl-source-stream": "^1.1.0"
-  }
+    "vinyl-source-stream": "^1.1.0",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }

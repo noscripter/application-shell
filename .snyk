@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:tunnel-agent:20170305':
+    - gcloud > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gcloud > gce-images > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gcloud > retry-request > request > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-25T22:47:34.910Z'

@@ -19,7 +19,7 @@
     "browserify": "^11.2.0",
     "del": "^2.0.2",
     "express": "^4.13.3",
-    "express-handlebars": "^2.0.1",
+    "express-handlebars": "^3.0.0",
     "gcloud": "^0.24.1",
     "glob": "^5.0.15",
     "gulp": "^3.9.0",
